@@ -1,0 +1,41 @@
+.container {
+  margin-top: 80px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box1 {
+  margin-top: 80px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.c1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h3 {
+  border: 1px solid black;
+  padding: 10px 70px;
+}
+#done {
+  display: none;
+}
+.box2 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: vertical;
+}
+#notelist{
+  display: flex;
+  flex-direction: column;
+}
+.taskListField{
+  outline: none;
+  border: none;
+  width: 75px;
+}
